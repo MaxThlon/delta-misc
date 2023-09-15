@@ -8,6 +8,7 @@
   <packaging>pom</packaging>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java_version>1.8</java_version>
   </properties>
   <!--
   <repositories>
@@ -28,8 +29,8 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
+          <source>${java_version}</source>
+          <target>${java_version}</target>
         </configuration>
         <version>3.2</version>
       </plugin>
